@@ -2,5 +2,7 @@
   <body>
     <h2>Confirm your signup TEST CUSTOM</h2>
     <p><a href="{{ .ConfirmationURL }}">Confirm your email</a></p>
+    <p><a href="{{ .ConfirmationURL | replace "http://kong" "https://api.catersmart.de" }}">Confirm your email</a></p>
+
   </body>
 </html>
